@@ -1,0 +1,25 @@
+
+find / -name file.php -print //ファイル検索
+whereis filename //実行早い、バグ多い
+
+chown -R username /dir ファイル所有者の変更
+chmod 755 /files 属性の変更
+
+touch  //ファイル作成
+rm //ファイル削除
+
+rm -rf temp-dir　//ディレクトリ消し
+rn -rR -f dirname //ディレクトリ問答無用消し
+rm *.txt　//特定の拡張子消し
+
+mv //ファイル移動
+
+//例　mv name hogerinko/moge/  
+
+//サイト丸ごとダウンロード　FTP版
+wget ftp://user:pw@host/dir -r -t3 -c -N -Q20m -l4 -L -k -np -p 
+//普通
+wget http://hogerinko.com/ -r -t3 -c -N -Q20m -l4 -L -k -np -p
+
+cp //コピー
+
